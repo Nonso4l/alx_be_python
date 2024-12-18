@@ -1,3 +1,3 @@
 hours = 2
 seconds = 2 * 3600
-print("2 hour(s) is 7200 seconds.")
+print(f"{hours} hour(s) is {seconds} seconds.")
