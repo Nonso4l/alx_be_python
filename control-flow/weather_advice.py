@@ -1,7 +1,7 @@
 sunny = 0
 rainy = 0
 cold = 0
-weather = str (input("What's the weather like today? (sunny/rainy/cold): "))
+weather = int (input("What's the weather like today? (sunny/rainy/cold): "))
 
 
 if weather == sunny:
