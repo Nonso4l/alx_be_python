@@ -4,19 +4,19 @@ operator = (input("Choose the operation (+, -, *, /): "))
 
 match operator:
     case "+":
-        sum = num1 + num2
-        print(f"The result is {sum}.")
+        result = num1 + num2
+        print(f"The result is [result].")
     case "-":
-        sum = num1 - num2
-        print(f"The result is {sum}.")
+        result = num1 - num2
+        print(f"The result is [result].")
     case "*":
-        sum = num1 * num2
-        print(f"The result is {sum}.")
+        result = num1 * num2
+        print(f"The result is [result].")
     case "/":
         if num2 == 0:
             print("Cannot divide by zero")
         else:
-            sum = num1 / num2
-        print(f"The result is {sum}.")
+            result = num1 / num2
+        print(f"The result is [result].")
     case _:
         print("Invalid operation")
