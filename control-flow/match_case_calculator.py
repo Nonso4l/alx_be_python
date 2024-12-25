@@ -1,21 +1,22 @@
 num1 = int (input("Enter the first number: "))
 num2 = int (input("Enter the second number: "))
 operator = (input("Choose the operation (+, -, *, /): "))
-sum = num1 + num2
-sum = num1 - num2
-sum = num1 * num2
-sum = num1 / num2
 
 match operator:
     case "+":
-        print("addition")
+        sum = num1 + num2
+        print(f"The result is {sum}.")
     case "-":
-        print("subtraction")
+        sum = num1 - num2
+        print(f"The result is {sum}.")
     case "*":
-        print("multiplication")
+        sum = num1 * num2
+        print(f"The result is {sum}.")
     case "/":
-        print("divide")
+        if num2 == 0:
+            print("Cannot divide by zero")
+        else:
+            sum = num1 / num2
+        print(f"The result is {sum}.")
     case _:
-        print("Cannot divide by zero")
-
-print("The result is [sum].")
+        print("Invalid operation")
