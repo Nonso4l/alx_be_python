@@ -20,3 +20,5 @@ match operator:
         print(f"The result is {result}. ")
     case _:
         print("Invalid operation")
+        
+print(f"The result is {result}. ")
