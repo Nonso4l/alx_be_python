@@ -1,6 +1,6 @@
-task_variable = str(input("Enter a task description: ")).lower()
-task_priority = str(input("Enter priority (high/medium/low): " )).lower()
-time_bound = str(input("Is it time bound ? (yes/no): ")).lower()
+task_variable = (input("Enter a task description: "))
+task_priority = (input("Enter priority (high/medium/low): " ))
+time_bound = (input("Is it time bound ? (yes/no): "))
 
 match task_priority:
     case "high":
